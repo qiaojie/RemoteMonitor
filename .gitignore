@@ -1,0 +1,16 @@
+*.suo
+*.ncb
+*.pdb
+*.manifest
+*.user
+*.ilk
+*.exp
+*.aps
+*.sdf
+*.opensdf
+Debug/
+Release/
+bin/
+obj/
+Temp/
+ipch/
