@@ -208,12 +208,76 @@
 				RelativePath=".\targetver.h"
 				>
 			</File>
+			<File
+				RelativePath=".\TCPSocket.h"
+				>
+			</File>
 		</Filter>
 		<Filter
 			Name="Resource Files"
 			Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav"
 			UniqueIdentifier="{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}"
 			>
+		</Filter>
+		<Filter
+			Name="common"
+			>
+			<File
+				RelativePath=".\BaseType.h"
+				>
+			</File>
+			<File
+				RelativePath=".\BinaryStream.h"
+				>
+			</File>
+			<File
+				RelativePath=".\DateTime.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Error.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Error.h"
+				>
+			</File>
+			<File
+				RelativePath=".\FixedArray.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Logger.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Logger.h"
+				>
+			</File>
+			<File
+				RelativePath=".\ParseCmdline.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\protocol.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\protocol.h"
+				>
+			</File>
+			<File
+				RelativePath=".\protocolloghelper.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Util.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Util.h"
+				>
+			</File>
 		</Filter>
 		<File
 			RelativePath=".\ReadMe.txt"
