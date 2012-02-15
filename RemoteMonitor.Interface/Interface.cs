@@ -13,7 +13,23 @@ namespace RemoteMonitor
 	{
 		public string Name;
 		public int CPU;
-		public long Memory;
+		public long IdleTime;
+		public long KernelTime;
+		public long UserTime;
+		public long CommitTotal;
+		public long CommitLimit;
+		public long CommitPeak;
+		public long PhysicalTotal;
+		public long PhysicalAvailable;
+		public long SystemCache;
+		public long KernelTotal;
+		public long KernelPaged;
+		public long KernelNonpaged;
+
+		public int PageSize;
+		public int HandleCount;
+		public int ProcessCount;
+		public int ThreadCount;
 	}
 
 	[Protocol(ID = 0x489ABE4F, Version = 1)]
